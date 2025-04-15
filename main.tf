@@ -14,7 +14,7 @@ resource "null_resource" "example" {
   provisioner "local-exec" {
     interpreter = ["/bin/bash", "-c"]
     command = <<EOH
-   az lock create --name LockGroup --lock-type CanNotDelete --resource-group exampleGroup
+   az --version
 EOH
   }
 }
