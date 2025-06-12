@@ -8,13 +8,13 @@ terraform {
     }
   }
 }
-resource "null_resource" "example1" {
+resource "null_resource" "example2" {
 
 
   provisioner "local-exec" {
     interpreter = ["/bin/bash", "-c"]
     command = <<EOH
-   aws --version
+   python --version
 EOH
   }
 }
