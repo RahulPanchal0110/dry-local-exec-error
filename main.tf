@@ -14,7 +14,7 @@ resource "null_resource" "example5" {
   provisioner "local-exec" {
     interpreter = ["/bin/bash", "-c"]
     command = <<EOH
-   python -V
+   az --version
 EOH
   }
 }
