@@ -8,7 +8,7 @@ terraform {
     }
   }
 }
-resource "null_resource" "example8" {
+resource "null_resource" "example9" {
 
 
   provisioner "local-exec" {
