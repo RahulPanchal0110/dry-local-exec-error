@@ -16,6 +16,7 @@ resource "null_resource" "example6" {
     command = <<EOH
    az --version
 EOH
+
   }
 }
 
